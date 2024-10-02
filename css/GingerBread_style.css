@@ -1,0 +1,24 @@
+Body {
+  background: Drak green;
+  background-image: url(Christmas\ tree\ background.jpeg);
+  color:Yellow;
+  Font-family: "times new roman", times, serif;"
+  /*font-weight:bold, */
+}
+
+h1, h2, h3 {
+  font-family: "times new roman", times, serif;
+  color: yellow;
+  text-shadow: 3px 3px 3px Black;
+  front-style: oblique; 
+  /*font-size:30px; */
+}
+
+p{
+  color:lightyellow;
+}
+li, a {color:lightyellow;
+}
+figcaption {
+  color:lightyellow;
+}
