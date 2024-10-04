@@ -38,6 +38,16 @@
 <p>
   Seafood paella is a vibrant and flavorful dish that originates from Valencia, Spain. This recipe combines a variety of fresh seafood with rice, saffron, and vegetables, creating a stunning centerpiece for any meal.
 </p>
+
+
+<h3>Conversion</h3>
+
+<form action="#">
+    <input type="text" id="tbsp-input" name="tbsp-input" placeholder="tablespoons">
+    <span>=</span> 
+    <input type="text" id="cups-input" name="cups-input" placeholder="cups">
+</form>
+
 <hr>  
   <h2>Ingredients</h2>
   <table style="width:100%">
@@ -129,9 +139,32 @@
     <a href="https://spainonafork.com/authentic-spanish-seafood-paella-recipe/">Recipe by Albert Brevia</a>
   </p>
   
-  <p>
-    <a href="../index.html">Back to Home</a>
-  </p>
+  <div class="rate-recipe">
+    <h3>Rate this Recipe</h3>
+
+    <form action="#">
+      <fieldset>
+        <legend>What skill level is this recipe?</legend>
+
+        <input type="radio" id="easy-radio" name="difficulty">
+        <label for="easy-radio">Easy</label>
+
+        <input type="radio" id="intermediate-radio" name="difficulty">
+        <label for="intermediate-radio">Intermediate</label>
+
+        <input type="radio" id="hard-radio" name="difficulty">
+        <label for="hard-radio">Hard</label>
+      </fieldset>
+    </form>
+  </div>
+
+  <footer>
+    <hr>
+    <p>
+      <a href="../index.html">Back to the Main Page</a>  
+      <span>This page created as academic activity only.</span>
+    </p>
+  </footer>
 </body>
 
 </html>
